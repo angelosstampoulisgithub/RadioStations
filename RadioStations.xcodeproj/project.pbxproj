@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6851C202CC70210008FEDA0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D6851C1F2CC70210008FEDA0 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6851BB52CC6FAC2008FEDA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6851B9A2CC6FABF008FEDA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6851BA12CC6FABF008FEDA0;
+			remoteInfo = RadioStations;
+		};
+		D6851BBF2CC6FAC2008FEDA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6851B9A2CC6FABF008FEDA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6851BA12CC6FABF008FEDA0;
+			remoteInfo = RadioStations;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6851BA22CC6FABF008FEDA0 /* RadioStations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioStations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6851BB42CC6FAC2008FEDA0 /* RadioStationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioStationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6851BBE2CC6FAC2008FEDA0 /* RadioStationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioStationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D6851BD22CC6FAD2008FEDA0 /* Exceptions for "RadioStations" folder in "RadioStations" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D6851BA12CC6FABF008FEDA0 /* RadioStations */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6851BA42CC6FABF008FEDA0 /* RadioStations */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6851BD22CC6FAD2008FEDA0 /* Exceptions for "RadioStations" folder in "RadioStations" target */,
+			);
+			path = RadioStations;
+			sourceTree = "<group>";
+		};
+		D6851BB72CC6FAC2008FEDA0 /* RadioStationsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RadioStationsTests;
+			sourceTree = "<group>";
+		};
+		D6851BC12CC6FAC2008FEDA0 /* RadioStationsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RadioStationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6851B9F2CC6FABF008FEDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6851C202CC70210008FEDA0 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6851BB12CC6FAC2008FEDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6851BBB2CC6FAC2008FEDA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6851B992CC6FABF008FEDA0 = {
+			isa = PBXGroup;
+			children = (
+				D6851BA42CC6FABF008FEDA0 /* RadioStations */,
+				D6851BB72CC6FAC2008FEDA0 /* RadioStationsTests */,
+				D6851BC12CC6FAC2008FEDA0 /* RadioStationsUITests */,
+				D6851BA32CC6FABF008FEDA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6851BA32CC6FABF008FEDA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6851BA22CC6FABF008FEDA0 /* RadioStations.app */,
+				D6851BB42CC6FAC2008FEDA0 /* RadioStationsTests.xctest */,
+				D6851BBE2CC6FAC2008FEDA0 /* RadioStationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6851BA12CC6FABF008FEDA0 /* RadioStations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6851BC82CC6FAC2008FEDA0 /* Build configuration list for PBXNativeTarget "RadioStations" */;
+			buildPhases = (
+				D6851B9E2CC6FABF008FEDA0 /* Sources */,
+				D6851B9F2CC6FABF008FEDA0 /* Frameworks */,
+				D6851BA02CC6FABF008FEDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6851BA42CC6FABF008FEDA0 /* RadioStations */,
+			);
+			name = RadioStations;
+			packageProductDependencies = (
+				D6851C1F2CC70210008FEDA0 /* Alamofire */,
+			);
+			productName = RadioStations;
+			productReference = D6851BA22CC6FABF008FEDA0 /* RadioStations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6851BB32CC6FAC2008FEDA0 /* RadioStationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6851BCB2CC6FAC2008FEDA0 /* Build configuration list for PBXNativeTarget "RadioStationsTests" */;
+			buildPhases = (
+				D6851BB02CC6FAC2008FEDA0 /* Sources */,
+				D6851BB12CC6FAC2008FEDA0 /* Frameworks */,
+				D6851BB22CC6FAC2008FEDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6851BB62CC6FAC2008FEDA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6851BB72CC6FAC2008FEDA0 /* RadioStationsTests */,
+			);
+			name = RadioStationsTests;
+			packageProductDependencies = (
+			);
+			productName = RadioStationsTests;
+			productReference = D6851BB42CC6FAC2008FEDA0 /* RadioStationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6851BBD2CC6FAC2008FEDA0 /* RadioStationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6851BCE2CC6FAC2008FEDA0 /* Build configuration list for PBXNativeTarget "RadioStationsUITests" */;
+			buildPhases = (
+				D6851BBA2CC6FAC2008FEDA0 /* Sources */,
+				D6851BBB2CC6FAC2008FEDA0 /* Frameworks */,
+				D6851BBC2CC6FAC2008FEDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6851BC02CC6FAC2008FEDA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6851BC12CC6FAC2008FEDA0 /* RadioStationsUITests */,
+			);
+			name = RadioStationsUITests;
+			packageProductDependencies = (
+			);
+			productName = RadioStationsUITests;
+			productReference = D6851BBE2CC6FAC2008FEDA0 /* RadioStationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6851B9A2CC6FABF008FEDA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					D6851BA12CC6FABF008FEDA0 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					D6851BB32CC6FAC2008FEDA0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D6851BA12CC6FABF008FEDA0;
+					};
+					D6851BBD2CC6FAC2008FEDA0 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = D6851BA12CC6FABF008FEDA0;
+					};
+				};
+			};
+			buildConfigurationList = D6851B9D2CC6FABF008FEDA0 /* Build configuration list for PBXProject "RadioStations" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6851B992CC6FABF008FEDA0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D6851C1E2CC7020F008FEDA0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6851BA32CC6FABF008FEDA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6851BA12CC6FABF008FEDA0 /* RadioStations */,
+				D6851BB32CC6FAC2008FEDA0 /* RadioStationsTests */,
+				D6851BBD2CC6FAC2008FEDA0 /* RadioStationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6851BA02CC6FABF008FEDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6851BB22CC6FAC2008FEDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6851BBC2CC6FAC2008FEDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6851B9E2CC6FABF008FEDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6851BB02CC6FAC2008FEDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6851BBA2CC6FAC2008FEDA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6851BB62CC6FAC2008FEDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6851BA12CC6FABF008FEDA0 /* RadioStations */;
+			targetProxy = D6851BB52CC6FAC2008FEDA0 /* PBXContainerItemProxy */;
+		};
+		D6851BC02CC6FAC2008FEDA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6851BA12CC6FABF008FEDA0 /* RadioStations */;
+			targetProxy = D6851BBF2CC6FAC2008FEDA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6851BC62CC6FAC2008FEDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6851BC72CC6FAC2008FEDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6851BC92CC6FAC2008FEDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioStations/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioStations/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.RadioStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6851BCA2CC6FAC2008FEDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RadioStations/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RadioStations/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.RadioStations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6851BCC2CC6FAC2008FEDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.RadioStationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioStations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioStations";
+			};
+			name = Debug;
+		};
+		D6851BCD2CC6FAC2008FEDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.RadioStationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioStations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RadioStations";
+			};
+			name = Release;
+		};
+		D6851BCF2CC6FAC2008FEDA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.RadioStationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioStations;
+			};
+			name = Debug;
+		};
+		D6851BD02CC6FAC2008FEDA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.RadioStationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RadioStations;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6851B9D2CC6FABF008FEDA0 /* Build configuration list for PBXProject "RadioStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6851BC62CC6FAC2008FEDA0 /* Debug */,
+				D6851BC72CC6FAC2008FEDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6851BC82CC6FAC2008FEDA0 /* Build configuration list for PBXNativeTarget "RadioStations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6851BC92CC6FAC2008FEDA0 /* Debug */,
+				D6851BCA2CC6FAC2008FEDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6851BCB2CC6FAC2008FEDA0 /* Build configuration list for PBXNativeTarget "RadioStationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6851BCC2CC6FAC2008FEDA0 /* Debug */,
+				D6851BCD2CC6FAC2008FEDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6851BCE2CC6FAC2008FEDA0 /* Build configuration list for PBXNativeTarget "RadioStationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6851BCF2CC6FAC2008FEDA0 /* Debug */,
+				D6851BD02CC6FAC2008FEDA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6851C1E2CC7020F008FEDA0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6851C1F2CC70210008FEDA0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6851C1E2CC7020F008FEDA0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D6851B9A2CC6FABF008FEDA0 /* Project object */;
+}
